@@ -8,7 +8,7 @@ public class main
     public static void main(String[] args) {
         System.out.println("Начало программы");
 
-        Test test = TestFactory.getTest("UI");
+        Test test = TestFactory.getTest();
         test.showParams();
     }
 }
