@@ -15,7 +15,12 @@ class MySQL(host: String, user: String, password: String): DB(host, user, passwo
     }
 
     override fun host(): String {
+        this.ololo()
         this.host = "MySQL: " + this.host
         return this.host
+    }
+
+    fun ololo(): String {
+        return "ololo"
     }
 }

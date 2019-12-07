@@ -2,7 +2,7 @@ package Databases
 
 class Oracle(host: String, user: String, password: String): DB(host, user, password) {
     override fun connect() {
-        // описан способ подключения для MySQL
+        // описан способ подключения для Oracle
 
     }
 
